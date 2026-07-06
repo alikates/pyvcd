@@ -10,6 +10,8 @@ class ScopeType(Enum):
     function = "function"
     module = "module"
     task = "task"
+    vhdl_record = "vhdl_record"
+    vhdl_array = "vhdl_array"
 
 
 class VarType(Enum):
